@@ -1,8 +1,13 @@
-const number = document.getElementById('inner');
-
 const emailList = []
 
-for (let i=0; i<10; i++){
+
+const button = document.getElementById('btn-generator')
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+    const number = document.getElementById('inner');
+
+    for (let i=0; i<10; i++){
     axios.get(`https://flynn.boolean.careers/exercises/api/random/mail`).then((resp)=>{
         emailList.push(resp.data.response);
         number.innerHTML = emailList
@@ -10,3 +15,10 @@ for (let i=0; i<10; i++){
     })
 
 }
+
+}) 
+
+
+
+
+
