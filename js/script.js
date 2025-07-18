@@ -20,7 +20,9 @@ button.addEventListener('click', (e) => {
 
  document.getElementById("refresh").addEventListener("click", function() {
     location.reload();
-    
+
   });
 
+
+//   creare e sostituire le 10 email create con altre 10 email randomiche
 
