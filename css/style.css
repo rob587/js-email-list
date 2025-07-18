@@ -1,0 +1,27 @@
+*{
+    font-family: "Bree Serif";
+}
+
+body{
+    background-color:#1e1e2e;
+    color: #f8f8f2; 
+}
+
+
+
+h1{
+    color: #89b4fa;
+}
+
+#btn-generator {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+    border: none;
+}
+
+#refresh {
+    background-color: #fab387;
+    color: #1e1e2e;
+    border: none;
+}
+

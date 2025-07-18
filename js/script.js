@@ -15,12 +15,12 @@ button.addEventListener('click', (e) => {
     })
 
 }
-
 }) 
 
 
  document.getElementById("refresh").addEventListener("click", function() {
     location.reload();
+    
   });
 
 

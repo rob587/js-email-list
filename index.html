@@ -9,14 +9,35 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <div id="inner"></div>
+<body class>
 
-    <button id="btn-generator" type="button" class="btn btn-success">Success</button>
+    <div class="container text-center ">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <h1 class="text-info-emphasis my-5">Clicca per generare 10 Email</h1>
+                <button id="btn-generator" type="button" class="btn btn-success">Genera</button>
 
-    <button id="refresh" type="button" class="btn btn-warning">Warning</button>
+                <button id="refresh" type="button" class="btn btn-warning">Ricarica Pagina</button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="inner" class="text-white">
+
+    </div>
 
 
     <script src="js/script.js"></script>
