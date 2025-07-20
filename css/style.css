@@ -14,11 +14,13 @@ h1 {
 }
 
 i {
-    font-size: 50px;
+    font-size: 80px;
+    color: #89b4fa;
 }
 
 #inner {
-    color: #89b4fa;
+    color: black;
+    font-size: 18px;
 }
 
 #btn-generator {
@@ -34,3 +36,17 @@ i {
 }
 
 /* aggiungere hover e qualcos altro */
+
+#btn-generator:hover {
+    background-color: #41e52b;
+
+}
+
+#refresh:hover {
+    background-color: #d37a42;
+}
+
+
+i:hover {
+    color: #578ee7;
+}
