@@ -9,7 +9,7 @@ const button = document.getElementById('btn-generator')
 button.addEventListener('click', (e) => {
   e.preventDefault()
 
-  // svuoto l'arrau dentro l'evento per creare altre 10 email sostituendo le 10 già esistenti
+  // svuoto l'array dentro l'evento per creare altre 10 email sostituendo le 10 già esistenti
   emailList.length = 0
 
   const number = document.getElementById('inner');
@@ -33,6 +33,4 @@ document.getElementById("refresh").addEventListener("click", function () {
 
 });
 
-
-//   creare e sostituire le 10 email create con altre 10 email randomiche
 
